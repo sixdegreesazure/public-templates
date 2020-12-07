@@ -3,9 +3,6 @@ param (
     [Parameter(Mandatory=$true)][string]$targetCollation
 )
 
-$isError = ""
-$errorMessage = ""
-
 $currentCollation = (Invoke-sqlCmd -Query "SELECT CONVERT (varchar, SERVERPROPERTY('collation')) AS 'ServerCollation';").ServerCollation
 
 if ($currentCollation -eq $targetCollation) {
