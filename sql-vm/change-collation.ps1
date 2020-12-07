@@ -1,6 +1,6 @@
 param (
-    [Parameter][string]$sqlAdminUser,
-    [Parameter][string]$targetCollation
+    [string]$sqlAdminUser,
+    [string]$targetCollation
 )
 
 if ((Invoke-sqlCmd -Query "select count(name) as DbCount from sys.databases WHERE name NOT IN ('master', 'tempdb', 'model', 'msdb');").dbCount -ne 0) {
