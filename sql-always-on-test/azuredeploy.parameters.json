@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "sqldbclu"
+    },
+    "existingDomainName": {
+      "value": "dprdemo.local"
+    },
+    "adminUsername": {
+      "value": "6dgsupport"
+    },
+    "adminPassword": {
+      "value": "asdfghjk123!"
+    },
+    "sqlServerServiceAccountUserName": {
+      "value": "sqlservice"
+    },
+    "sqlServerServiceAccountPassword": {
+      "value": "tio459!uty*"
+    },
+    "existingSqlSubnetName": {
+      "value": "sn-192-168-102-96-27-db"
+    },
+    "virtualNetworkName": {
+      "value": "vnet-neu-192-168-102-0-24-dpr-uat"
+    },
+    "virtualNetworkResourceGroup": {
+      "value": "rg-neu-uat-network"
+    },
+    "sqlLBIPAddress": {
+      "value": "192.168.102.104"
+    },
+    "existingAdPDCVMName": {
+      "value": "dc0"
+    }
+  }
+}
