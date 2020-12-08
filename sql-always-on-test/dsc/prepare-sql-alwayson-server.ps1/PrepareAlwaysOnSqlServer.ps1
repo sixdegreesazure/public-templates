@@ -152,7 +152,7 @@ configuration PrepareAlwaysOnSqlServer
             UserName = $SQLServicecreds.UserName
             Password = $SQLServicecreds
             Ensure = "Present"
-            DependsOn = "[xSqlLogin]AddDomainAdminAccountToSysadminServerRole"
+            DependsOn = "[SqlLogin]AddDomainAdminAccountToSysadminServerRole"
         }
 
         SqlLogin AddSqlServerServiceAccountToSysadminServerRole
@@ -174,7 +174,7 @@ configuration PrepareAlwaysOnSqlServer
             FilePath = "F:\DATA"
             LogPath = "G:\LOG"
             DomainAdministratorCredential = $DomainFQDNCreds
-            DependsOn = "[xSqlLogin]AddSqlServerServiceAccountToSysadminServerRole"
+            DependsOn = "[SqlLogin]AddSqlServerServiceAccountToSysadminServerRole"
         }
 
         LocalConfigurationManager 
