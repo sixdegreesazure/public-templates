@@ -1,1 +1,44 @@
 
+Region,DisplayName,RegionAbbr,AvailabilityZones
+australiacentral,Australia Central,,
+australiacentral2,Australia Central 2,,
+australiaeast,Australia East,,TRUE
+australiasoutheast,Australia Southeast,,
+brazilsouth,Brazil South,,TRUE
+brazilsoutheast,Brazil Southeast,,
+canadacentral,Canada Central,,TRUE
+canadaeast,Canada East,,
+centralindia,Central India,,
+centralus,Central US,,TRUE
+eastasia,East Asia,,
+eastus,East US,EUS,TRUE
+eastus2,East US 2,EUS2,TRUE
+francecentral,France Central,,TRUE
+francesouth,France South,,
+germanynorth,Germany North,,
+germanywestcentral,Germany West Central,,TRUE
+japaneast,Japan East,,TRUE
+japanwest,Japan West,,
+koreacentral,Korea Central,,
+koreasouth,Korea South,,
+northcentralus,North Central US,,
+northeurope,North Europe,NEU,TRUE
+norwayeast,Norway East,,
+norwaywest,Norway West,,
+southafricanorth,South Africa North,,
+southafricawest,South Africa West,,
+southcentralus,South Central US,,TRUE
+southeastasia,Southeast Asia,,TRUE
+southindia,South India,,
+switzerlandnorth,Switzerland North,,
+switzerlandwest,Switzerland West,,
+uaecentral,UAE Central,,
+uaenorth,UAE North,,
+uksouth,UK South,UKS,TRUE
+ukwest,UK West,UKW,
+westcentralus,West Central US,,
+westeurope,West Europe,WEU,TRUE
+westindia,West India,,
+westus,West US,,
+westus2,West US 2,,TRUE
+westus3,West US 3,,TRUE
