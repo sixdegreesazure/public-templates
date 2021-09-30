@@ -1,43 +1,43 @@
 Region,DisplayName,RegionAbbr,AvailabilityZones
-australiacentral,Australia Central,,
-australiacentral2,Australia Central 2,,
+australiacentral,Australia Central,,FALSE
+australiacentral2,Australia Central 2,,FALSE
 australiaeast,Australia East,,TRUE
-australiasoutheast,Australia Southeast,,
+australiasoutheast,Australia Southeast,,FALSE
 brazilsouth,Brazil South,,TRUE
-brazilsoutheast,Brazil Southeast,,
+brazilsoutheast,Brazil Southeast,,FALSE
 canadacentral,Canada Central,,TRUE
-canadaeast,Canada East,,
-centralindia,Central India,,
+canadaeast,Canada East,,FALSE
+centralindia,Central India,,FALSE
 centralus,Central US,,TRUE
-eastasia,East Asia,,
+eastasia,East Asia,,FALSE
 eastus,East US,EUS,TRUE
 eastus2,East US 2,EUS2,TRUE
 francecentral,France Central,,TRUE
-francesouth,France South,,
-germanynorth,Germany North,,
+francesouth,France South,,FALSE
+germanynorth,Germany North,,FALSE
 germanywestcentral,Germany West Central,,TRUE
 japaneast,Japan East,,TRUE
-japanwest,Japan West,,
-koreacentral,Korea Central,,
-koreasouth,Korea South,,
-northcentralus,North Central US,,
+japanwest,Japan West,,FALSE
+koreacentral,Korea Central,,FALSE
+koreasouth,Korea South,,FALSE
+northcentralus,North Central US,,FALSE
 northeurope,North Europe,NEU,TRUE
-norwayeast,Norway East,,
-norwaywest,Norway West,,
-southafricanorth,South Africa North,,
-southafricawest,South Africa West,,
+norwayeast,Norway East,,FALSE
+norwaywest,Norway West,,FALSE
+southafricanorth,South Africa North,,FALSE
+southafricawest,South Africa West,,FALSE
 southcentralus,South Central US,,TRUE
 southeastasia,Southeast Asia,,TRUE
-southindia,South India,,
-switzerlandnorth,Switzerland North,,
-switzerlandwest,Switzerland West,,
-uaecentral,UAE Central,,
-uaenorth,UAE North,,
+southindia,South India,,FALSE
+switzerlandnorth,Switzerland North,,FALSE
+switzerlandwest,Switzerland West,,FALSE
+uaecentral,UAE Central,,FALSE
+uaenorth,UAE North,,FALSE
 uksouth,UK South,UKS,TRUE
-ukwest,UK West,UKW,
+ukwest,UK West,UKW,FALSE
 westcentralus,West Central US,,
 westeurope,West Europe,WEU,TRUE
-westindia,West India,,
-westus,West US,,
+westindia,West India,,FALSE
+westus,West US,,FALSE
 westus2,West US 2,,TRUE
 westus3,West US 3,,TRUE
