@@ -35,7 +35,7 @@ uaecentral,UAE Central,,FALSE
 uaenorth,UAE North,,FALSE
 uksouth,UK South,UKS,TRUE
 ukwest,UK West,UKW,FALSE
-westcentralus,West Central US,,
+westcentralus,West Central US,,FALSE
 westeurope,West Europe,WEU,TRUE
 westindia,West India,,FALSE
 westus,West US,,FALSE
